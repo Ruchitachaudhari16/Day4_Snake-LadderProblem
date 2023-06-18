@@ -13,6 +13,8 @@ namespace Snake_LadderProblem
             Console.WriteLine("Snake & Ladder Problem");
             Simulation simulation = new Simulation();
             simulation.StartPosition();
+            simulation.RolledDie();
+
             Console.ReadLine(); 
         }
     }
