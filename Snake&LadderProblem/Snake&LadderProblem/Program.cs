@@ -14,6 +14,7 @@ namespace Snake_LadderProblem
             Simulation simulation = new Simulation();
             simulation.StartPosition();
             simulation.RolledDie();
+            simulation.OptionCheck();
 
             Console.ReadLine(); 
         }
