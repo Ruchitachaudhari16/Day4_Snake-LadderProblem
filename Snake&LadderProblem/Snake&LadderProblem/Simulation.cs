@@ -33,7 +33,7 @@ namespace Snake_LadderProblem
                             Console.WriteLine("No Play");
                             break;
                         case 1:                         //if choice =1
-                            startPositiont += RolledDie;    //startPoisition = startPoint +RolledDie
+                            startPositiont += RolledDie;    //startPoisition = startPoisition +RolledDie
                         Console.WriteLine("Got Ladder: " + startPositiont);
                             break;
                         case 2:
