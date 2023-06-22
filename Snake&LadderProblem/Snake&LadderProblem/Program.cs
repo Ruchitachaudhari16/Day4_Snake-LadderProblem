@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace Snake_LadderProblem
 {
-    internal class Program
+   public class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Snake & Ladder Problem");
             Simulation simulation = new Simulation();
-            simulation.StartPosition();
-            simulation.RolledDie();
-            simulation.OptionCheck();
+          simulation.StartPlaying();
 
             Console.ReadLine(); 
         }
